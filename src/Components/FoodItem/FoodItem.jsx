@@ -6,6 +6,7 @@ import { StoreContext } from '../../context/StoreContext';
 const FoodItem = ({id,name,price,description,image }) => {
 
     // const [itemCount, setItemCount] = useState(0);
+    
     const { cartItems,addToCart,removeFromCart } = useContext(StoreContext);
 
   return (
@@ -13,11 +14,11 @@ const FoodItem = ({id,name,price,description,image }) => {
         <div className="food-item-img-container">
             <img className='food-item-img' src={image} alt="" />
             {!cartItems[id]
-            ? <img className='add' onClick={()=>addToCart(id)} src={assets.add_icon_white} alt="" />
-            : <div className="food-item-counter">
-                <img src={assets.remove_icon_red} onClick={removeFromCart(id)} alt="" />
+            ?<img className='add' onClick={()=>addToCart(id)} src={assets.add_icon_white} alt="" />
+            :<div className="food-item-counter">
+                <img src={assets.remove_icon_red} onClick={()=>removeFromCart(id)} alt="" />
                 <p>{cartItems[id]}</p>
-                <img src={assets.add_icon_green} onClick={addToCart(id)} alt="" />
+                <img src={assets.add_icon_green} onClick={()=>addToCart(id)} alt="" />
             </div>
 
             }
@@ -28,7 +29,7 @@ const FoodItem = ({id,name,price,description,image }) => {
                 <img src={assets.rating_starts} alt="" />
             </div>
             <p className="food-item-description">{description}</p>
-            <p className="food-item-pr">₹{price}0</p>
+            <p className="food-item-pr">₹{price}</p>
         </div>
 
     </div>
