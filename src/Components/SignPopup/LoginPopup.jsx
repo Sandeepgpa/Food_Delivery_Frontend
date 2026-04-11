@@ -4,30 +4,33 @@ import { assets } from '../../assets/assets';
 
 const LoginPopup = ({ setShowLogin }) => {
 
-    const [currentState,setCurrentState] = useState("Login");
+    const [currentState,setCurrentState] = useState("Sign Up");
+
   return (
-    <div className='login-popup'>
+    
         <div className="login-popup">
-            <form action="" className="login-popup-cotainer">
+            <form className="login-popup-cotainer">
                 <div className="login-popup-title">
                     <h2>{currentState}</h2>
                     <img onClick={()=>setShowLogin(false)} src={assets.cross_icon} alt="" />
                 </div>
-                <div className="login-popup-input">
+                <div className="login-popup-inputs">
                     {currentState==='Login'?<></>:<input type="text" name="" placeholder='Your name' required />}
                     <input type="email" name="" placeholder='Your email' required/>
                     <input type="password" name="" placeholder='Password' required />
                 </div>
-                <button>{currentState==="sign Up"?"Create account":"Login"}</button>
+                <button>{currentState==="Sign Up"?"Create account":"Login"}</button>
                 <div className="login-popup-condition">
                     <input type="checkbox" name="" required />
-                    <p>By continuing, i agree to the terms of use & privacy Policy.</p>
+                    <p>By continuing, I agree to the terms of use & privacy Policy.</p>
                 </div>
-                <p>Create a new account ? <span>Click here</span></p>
+                {currentState==="Login"
+                ?<p>Create a new account ? <span onClick={()=>setCurrentState("Sign Up")}>Click here</span></p>
+                :<p>Already have an Account? <span onClick={()=>setCurrentState("Login")}>Login here</span></p>}
+               
+                
             </form>
         </div>
-
-    </div>
   )
 }
 
