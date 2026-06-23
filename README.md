@@ -77,15 +77,12 @@ FOOD_DELIVERY/
 
 > Add your screenshot here
 
-```md
 ![Home](./GitHub_IMG/landing-page.png)
-```
+
 
 ### 🍽️ Food Menu
 
-```md
 ![Explor Menu](./GitHub_IMG/Explor-menu.png)
-```
 
 ### 🍽️ Food Menu
 
