@@ -4,27 +4,6 @@ A responsive and modern **Food Delivery Web Application** built using **React.js
 
 ---
 
-## 📌 Overview
-
-The Food Delivery Website is a frontend application developed with React.js. It demonstrates the use of reusable components, React Hooks, Context API for state management, and React Router DOM for page navigation. The project focuses on creating a responsive and user-friendly food ordering experience.
-
----
-
-## ✨ Features
-
-* 🏠 Responsive Home Page
-* 🍽️ Explore food categories
-* 🍕 Display food items dynamically
-* 🛒 Add and remove items from the cart
-* 📦 Place Order page
-* 🔐 Login/Signup Popup UI
-* 💵 Real-time cart total calculation
-* ⚡ Fast navigation with React Router DOM
-* 📱 Mobile-friendly design
-* 🎨 Clean and modern user interface
-
----
-
 ## 🛠️ Tech Stack
 
 ### Frontend
@@ -99,25 +78,31 @@ FOOD_DELIVERY/
 > Add your screenshot here
 
 ```md
-![Home](./screenshots/home.png)
+![Home](./GitHub_IMG/landing-page.png)
 ```
 
 ### 🍽️ Food Menu
 
 ```md
-![Food Menu](./screenshots/menu.png)
+![Explor Menu](./GitHub_IMG/Explor-menu.png)
+```
+
+### 🍽️ Food Menu
+
+```md
+![Food Menu](./GitHub_IMG/Food_MENU.png)
 ```
 
 ### 🛒 Cart Page
 
 ```md
-![Cart](./screenshots/cart.png)
+![Cart](./GitHub_IMG/Cart-page.png)
 ```
 
 ### 📦 Place Order
 
 ```md
-![Place Order](./screenshots/place-order.png)
+![Place Order](./GitHub_IMG/Place-orde-page.png)
 ```
 
 ---
@@ -127,13 +112,13 @@ FOOD_DELIVERY/
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/food-delivery.git
+git clone https://github.com/Sandeepgpa/Food_Delivery_Frontend
 ```
 
 ### Navigate to the Project
 
 ```bash
-cd food-delivery
+cd Frontend
 ```
 
 ### Install Dependencies
@@ -156,15 +141,6 @@ http://localhost:5173
 
 ---
 
-## 📦 Dependencies
-
-* React
-* React DOM
-* React Router DOM
-* Vite
-
----
-
 ## 📖 What I Learned
 
 During this project, I gained hands-on experience with:
@@ -180,6 +156,21 @@ During this project, I gained hands-on experience with:
 
 ---
 
+## ✨ Features
+
+* 🏠 Responsive Home Page
+* 🍽️ Explore food categories
+* 🍕 Display food items dynamically
+* 🛒 Add and remove items from the cart
+* 📦 Place Order page
+* 🔐 Login/Signup Popup UI
+* 💵 Real-time cart total calculation
+* ⚡ Fast navigation with React Router DOM
+* 📱 Mobile-friendly design
+* 🎨 Clean and modern user interface
+
+---
+
 ## 🚀 Future Improvements
 
 * User Authentication
@@ -188,19 +179,16 @@ During this project, I gained hands-on experience with:
 * Database Support
 * Order History
 * Search Functionality
-* Food Filtering
-* Wishlist Feature
 * Admin Dashboard
-* Dark Mode
 
 ---
 
 ## 👨‍💻 Author
 
-**Your Name**
+**Sandeep Gupta**
 
-* GitHub: https://github.com/your-username
-* LinkedIn: https://linkedin.com/in/your-profile
+* GitHub: https://github.com/Sandeepgpa
+* LinkedIn: https://www.linkedin.com/in/sandeepgpa
 
 ---
 
