@@ -75,8 +75,6 @@ FOOD_DELIVERY/
 
 ### 🏠 Home Page
 
-> Add your screenshot here
-
 ![Home](./GitHub_IMG/landing-page.png)
 
 
@@ -84,23 +82,20 @@ FOOD_DELIVERY/
 
 ![Explor Menu](./GitHub_IMG/Explor-menu.png)
 
+
 ### 🍽️ Food Menu
 
-```md
 ![Food Menu](./GitHub_IMG/Food_MENU.png)
-```
+
 
 ### 🛒 Cart Page
 
-```md
 ![Cart](./GitHub_IMG/Cart-page.png)
-```
+
 
 ### 📦 Place Order
 
-```md
 ![Place Order](./GitHub_IMG/Place-orde-page.png)
-```
 
 ---
 
