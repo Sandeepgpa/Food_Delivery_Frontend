@@ -9,7 +9,8 @@ import LoginPopup from './Components/SignPopup/LoginPopup'
 
 const App = () => {
 
-  const [showLogin,setShowLogin] = useState(false)
+  const [showLogin,setShowLogin] = useState(false);
+  
   return (
     <>
     {showLogin?<LoginPopup setShowLogin={setShowLogin}/>:<></>}
@@ -21,7 +22,7 @@ const App = () => {
           <Route path='/order' element={<PlaceOrder />} />
         </Routes>
       </div>
-      <Footer />
+      <Footer/>
     </>
   )
 }
